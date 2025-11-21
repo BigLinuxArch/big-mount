@@ -1,8 +1,8 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=big-mount
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=24.06.04
+pkgrel=1951
 arch=('any')
 license=('GPL')
 depends=('udisks2' 'util-linux' 'ntfs-3g')
@@ -10,7 +10,7 @@ provides=('big-mount-git')
 replaces=('big-mount-git')
 url="https://github.com/biglinux/big-mount"
 pkgdesc="Auto mount partitions in internal disks on boot"
-source=("git+https://github.com/biglinux/big-mount.git")
+source=("git+https://github.com/biglinux/big-mount.git#branch=stable-2024-06-04_16-47")
 makedepends=("git")
 md5sums=(SKIP)
 
